@@ -98,3 +98,25 @@
     color: black;
     font-weight: 700;
 }
+
+.navList {
+    font-size: 16px;
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+.navList li {
+    display: inline;
+}
+
+.navLink {
+    text-decoration: none;
+    font-weight: 400;
+    color: #888; 
+}
+
+.illustration {
+    max-width: 693px;
+    margin-left: 127px; 
+}
