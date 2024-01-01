@@ -49,7 +49,7 @@ const Header: React.FC<IProps> = ({className}) => {
                             Our service provides progressive, and <br/> affordable healthcare,
                             accessible on mobile <br/> and online for everyone
                         </h3>
-                        <Button className={styles.myCustomButton} textColor = "#ffffff" color="#458FF6" buttonText="Consult today"/>
+                        <Button className={styles.myCustomButton} buttonText="Consult today"/>
                     </div>
                     <img src={illustration} alt="Illustration" className={styles.illustration} />
                 </div>
