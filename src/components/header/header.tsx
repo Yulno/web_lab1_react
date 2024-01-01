@@ -2,6 +2,7 @@ import React from "react";
 import styles from './header.module.css';
 import illustration from '../../assets/illustration.png';
 import dots from '../../assets/dots.png';
+import Button from "../button/button.tsx";
 
 interface IProps {
     className?: string;
@@ -48,7 +49,7 @@ const Header: React.FC<IProps> = ({className}) => {
                             Our service provides progressive, and <br/> affordable healthcare,
                             accessible on mobile <br/> and online for everyone
                         </h3>
-                        
+                        <Button className={styles.myCustomButton} textColor = "#ffffff" color="#458FF6" buttonText="Consult today"/>
                     </div>
                     <img src={illustration} alt="Illustration" className={styles.illustration} />
                 </div>

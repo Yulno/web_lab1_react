@@ -9,6 +9,7 @@ import searchdoctor from "../../assets/search_doctor_photo.png";
 import trackingphoto from "../../assets/tracking_photo.png";
 import cloudphoto from  "../../assets/cloudphoto_servicecard.png"
 import dots5 from "../../assets/dots5.png";
+import Button from "../button/button.tsx";
 
 interface IProps {
     className?: string;
@@ -67,7 +68,7 @@ const ServiceCard: React.FC<IProps> = ({className}) => {
                 ))}
             </div>
             <img src={dots5} alt="dots5" className={styles.dots5} />
-            
+            <Button className={styles.button} textColor = "#458FF6" color="#FFFFFF" buttonText="Learn more" />
         </div>
     );
 }

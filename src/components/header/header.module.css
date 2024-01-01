@@ -120,3 +120,14 @@
     max-width: 693px;
     margin-left: 127px; 
 }
+
+.blueButton {
+    margin-top: 69px;
+    width: 200px;
+    height: 56px;
+    padding: 10px 20px;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    cursor: pointer;
+    font-size: 18px;
+}
