@@ -3,10 +3,18 @@
   text-align: center;
 }
 
+.header_content {
+  width: 70%;
+  justify-content: center;
+  text-align: center;
+}
+
 .margins {
   margin: 0 auto;
   margin-top: 200px;
   text-align: center;
+  width: 70%;
+  justify-content: center;
 }
 
 .logo {
