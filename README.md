@@ -3,13 +3,13 @@
 Работа велась сначала в ветке main, после была смержена в develop. 
 
 # Версии:
-NodeJS 20.9.0
-npm 10.1.0
+NodeJS 20.9.0.
+npm 10.1.0.
 
 # Запуск
->vite
-npm install
-npm run dev
+>vite;
+npm install;
+npm run dev;
 
 # Скриншот
 Кнопки имеют ховер эффект.
