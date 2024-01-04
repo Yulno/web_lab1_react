@@ -9,7 +9,7 @@ npm 10.1.0.
 # Запуск
 vite;
 npm install;
-npm run dev;
+npm run dev
 
 # Скриншот
 Кнопки имеют ховер эффект.
