@@ -1,34 +1,24 @@
-
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import CounterButton from './components/CounterButton'
+import Header from "./components/header";
+import ServiceCard from "./components/servicecard";
+import styles from "./App.module.css";
+import {Providers, Mobile} from "./components/infocard";
+import Slider from "./components/slider";
+import Articlecard from "./components/articlecard";
+import Footer from "./components/footer";
 
 function App() {
  
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <CounterButton />
-        <CounterButton />
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Header/>
+      <ServiceCard className = {styles.margins}/>
+      <Providers className = {styles.margins}/>
+      <Mobile className = {styles.margins}/>
+      <Slider className = {styles.margins}/>
+      <Articlecard className = {styles.margins}/>
+      <Footer className = {styles.margins}/>
     </>
-  )
+  );
 }
 
 export default App

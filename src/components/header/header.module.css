@@ -1,0 +1,124 @@
+.container {
+    padding: 40px 100px 0 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #458FF6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.letter {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.brand {
+    margin-left: 12px; 
+}
+
+.dots {
+    position: absolute;
+    margin-top: 60px;
+    left: 0;
+    display: flex;
+}
+
+.contentBlock {
+    margin-top: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textContainer {
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.illustration {
+    max-width: 693px;
+    margin-left: 127px; 
+}
+
+.text {
+    max-width: 500px;
+}
+
+.text h1 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.text h3 {
+    color: #7D7987;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    margin-bottom: 45px;
+}
+
+.blueButton {
+    width: 200px;
+    height: 56px;
+    background-color: #458FF6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-color: #458FF6;
+    border-radius: 55px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.navLink[href='/'] {
+    color: black;
+    font-weight: 700;
+}
+
+.navList {
+    font-size: 16px;
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+.navList li {
+    display: inline;
+}
+
+.navLink {
+    text-decoration: none;
+    font-weight: 400;
+    color: #888; 
+}
+
+
+
+
+
