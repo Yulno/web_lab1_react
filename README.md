@@ -7,7 +7,7 @@ NodeJS 20.9.0.
 npm 10.1.0.
 
 # Запуск
->vite;
+vite;
 npm install;
 npm run dev;
 
