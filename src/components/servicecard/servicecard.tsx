@@ -7,7 +7,7 @@ import emergencycore from "../../assets/emergency_core_photo.png";
 import onlinepharmacy from "../../assets/online_pharmacy_photo.png";
 import searchdoctor from "../../assets/search_doctor_photo.png";
 import trackingphoto from "../../assets/tracking_photo.png";
-import cloudphoto from  "../../assets/cloudphoto_servicecard.png"
+import cloudphoto from  "../../assets/cloudphoto_servicecard.png";
 import dots5 from "../../assets/dots5.png";
 import Button from "../button/button.tsx";
 
