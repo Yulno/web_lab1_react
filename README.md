@@ -13,4 +13,4 @@ npm - 10.1.0
 
 При нажатии на кнопку View All отображается еще ряд карточек, кнопка меняет текст на Hide. При нажатии на Hide новый ряд карточек скрывается.
 
-![image alt](https://github.com/Yulno/web_lab1_react/blob/develop/screen.jpeg_)
+![image alt](https://github.com/Yulno/web_lab1_react/blob/develop/screen.jpeg)
