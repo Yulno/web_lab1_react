@@ -4,6 +4,7 @@ import styles from "./App.module.css";
 import {Providers, Mobile} from "./components/infocard";
 import Slider from "./components/slider";
 import Articlecard from "./components/articlecard";
+import Footer from "./components/footer";
 
 function App() {
  
@@ -15,6 +16,7 @@ function App() {
       <Mobile className = {styles.margins}/>
       <Slider className = {styles.margins}/>
       <Articlecard className = {styles.margins}/>
+      <Footer className = {styles.margins}/>
     </>
   );
 }
