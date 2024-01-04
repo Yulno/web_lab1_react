@@ -1,6 +1,9 @@
 .container {
-    padding: 40px 80px 0 80px;
+    padding: 40px 100px 0 100px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .header {
@@ -44,9 +47,9 @@
 }
 
 .contentBlock {
-    margin-top: 155px;
+    margin-top: 84px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -88,9 +91,9 @@
     color: white;
     padding: 10px 20px;
     border: none;
+    border-color: #458FF6;
     border-radius: 55px;
     cursor: pointer;
-
     font-size: 18px;
 }
 
@@ -116,18 +119,7 @@
     color: #888; 
 }
 
-.illustration {
-    max-width: 693px;
-    margin-left: 127px; 
-}
 
-.blueButton {
-    margin-top: 69px;
-    width: 200px;
-    height: 56px;
-    padding: 10px 20px;
-    border-radius: 55px;
-    border: 1.4px solid #458FF6;
-    cursor: pointer;
-    font-size: 18px;
-}
+
+
+
