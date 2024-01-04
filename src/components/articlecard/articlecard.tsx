@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './articlecard.module.css';
 import article1 from '../../assets/article1.png';
 import article2 from '../../assets/article2.png';
@@ -13,11 +13,15 @@ interface IProps {
 }
 
 const ArticleCard: React.FC<IProps> = ({ className }) => {
+    const [showAllArticles, setShowAllArticles] = useState(false);
 
     const photos: string[] = [
         article1,
         article2,
         article3,
+        article1,
+        article2,
+        article3
     ];
 
     const titles: string[] = [
@@ -38,7 +42,9 @@ const ArticleCard: React.FC<IProps> = ({ className }) => {
         'A healthy lifestyle should start from now and also for your skin health. There are some...'
     ];
 
-    
+    const handleToggleArticles = () => {
+        setShowAllArticles(!showAllArticles);
+    };
 
     return (
         <div className={`${className} ${styles.container}`}>
@@ -49,7 +55,7 @@ const ArticleCard: React.FC<IProps> = ({ className }) => {
             <div className={styles.line_container}><div className={styles.line}></div></div>
             <div className={styles.cardContainer}>
                 <img src={dots5} alt="dots5" className={styles.dots5} />
-                {photos.map((photo, index) => (
+                {photos.slice(0, showAllArticles ? photos.length : 3).map((photo, index) => (
                     <div className={styles.card} key={index}>
                         <img src={photo} alt={`Photo ${index}`} className={styles.photo} />
                         <h2 className={styles.title_card}>{titles[index]}</h2>
@@ -65,7 +71,8 @@ const ArticleCard: React.FC<IProps> = ({ className }) => {
                 className={styles.blueButton}
                 textColor="#458FF6"
                 color="#FFFFFF"
-                buttonText="View more"
+                buttonText={showAllArticles ? "Hide" : "View all"}
+                onClick={handleToggleArticles}
             />
         </div>
     );
