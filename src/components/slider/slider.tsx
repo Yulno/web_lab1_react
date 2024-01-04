@@ -16,18 +16,18 @@ const Slider: React.FC<IProps> = ({className}) => {
             info: '“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”',
         },
         {
-            name: 'John Doe',
-            position: 'CEO',
+            name: 'Antony Davidson',
+            position: 'Patient',
             info: '“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”',
         },
         {
-            name: 'Alice Johnson',
-            position: 'Head of Operations',
+            name: 'Frances Bauldwin',
+            position: 'Director',
             info: '“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”',
         },
         {
-            name: 'Emily Smith',
-            position: 'Marketing Director',
+            name: 'Gregoriy Gorgon',
+            position: 'Doctor',
             info: '“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”',
         }
     ];
